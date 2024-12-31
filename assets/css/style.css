@@ -1206,3 +1206,31 @@ section {
     margin-bottom: 15px;
   }
 }
+
+/*--------------------------------------------------------------
+# Blog
+--------------------------------------------------------------*/
+.blog .blog-preview {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.blog .blog-preview:hover {
+  transform: translateY(-5px);
+}
+
+.blog .blog-preview h3 {
+  color: #173b6c;
+  margin-bottom: 15px;
+}
+
+.blog .blog-preview .btn {
+  padding: 10px 24px;
+  transition: 0.4s;
+}
+
+.blog .blog-preview .btn:hover {
+  background: #37b3ed;
+}
