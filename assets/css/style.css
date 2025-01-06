@@ -1258,3 +1258,117 @@ section {
 .blog .blog-preview .btn i {
   margin-right: 5px;
 }
+
+.skills .text-muted {
+  font-size: 12px;
+  color: #6c757d !important;
+}
+
+.skills .text-muted sup {
+  margin-right: 2px;
+}
+
+.skills .skill sup {
+  color: #800000;  /* Maroon color */
+}
+
+.skills .text-muted sup {
+  color: #800000;  /* Maroon color */
+  margin-right: 2px;
+}
+
+/* Skills Tabs Styling */
+.skills .nav-tabs {
+  border-bottom: 1px solid #149ddd;
+  display: flex;
+  flex-wrap: nowrap;  /* Prevent wrapping */
+  width: 100%;
+}
+
+.skills .nav-tabs .nav-item {
+  flex: 1;  /* Equal width distribution */
+}
+
+.skills .nav-tabs .nav-link {
+  margin-bottom: -1px;
+  border: none;
+  color: #173b6c;
+  font-weight: 600;
+  padding: 12px 30px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .skills .nav-tabs .nav-link {
+    padding: 8px 10px;
+    font-size: 14px;
+  }
+}
+
+/* Even smaller screens */
+@media (max-width: 480px) {
+  .skills .nav-tabs .nav-link {
+    padding: 6px 8px;
+    font-size: 12px;
+  }
+}
+
+.skills .nav-tabs .nav-link.active {
+  color: #149ddd;
+  background: transparent;
+  border-bottom: 2px solid #149ddd;
+  margin-bottom: -2px;
+}
+
+.skills .nav-tabs .nav-link:hover {
+  color: #149ddd;
+}
+
+.skills .tab-content {
+  margin-top: 24px;
+}
+
+/* Moon Rating System */
+.skill-rating {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.skill-rating .skill {
+  font-weight: 600;
+  color: #173b6c;
+}
+
+.moon-rating {
+  display: flex;
+  gap: 5px;
+  min-width: 100px;  /* Ensure consistent width */
+  justify-content: flex-end;  /* Align moons to the right */
+}
+
+.moon-rating i {
+  font-size: 16px;
+}
+
+/* Full moon */
+.moon-rating .bi-circle-fill {
+  color: #149ddd;
+}
+
+/* Empty moon */
+.moon-rating .bi-circle {
+  color: #ddd;
+}
+
+/* Half moon */
+.moon-rating .bi-circle-half {
+  color: #149ddd;
+}
